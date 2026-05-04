@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 runGame(gameType);
             }
         });
-    }
+    };
     document.getElementById("answer-box").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             checkAnswer();
         }
-    }
+    });
     runGame("addition");
 });
 /**
