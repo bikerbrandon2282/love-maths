@@ -3,16 +3,27 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome and Google Fonts -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"
+        >
+        <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css" />
+        
         <title>Love Maths</title>
     </head>
     <body>
         <main>
-            <h1>Love Maths</h1>
-            <p>Welcome to the Love Maths website! Here you can find resources, tutorials, 
-                and fun activities to help you enjoy and excel in mathematics. Whether you're a student, teacher, 
-                or just a math enthusiast, there's something for everyone. Explore our content and discover the beauty of mathematics!
-            </p>
+            <h1 class="heading">
+                <img class="logo" src="assets/images/logo.png" alt="logo">
+            </h1>
+            <div class="game-area">
+
+            </div>
+            <div class="score-area">
+                <p class="scores">Correct Answers <span id="score">0</span></p>
+                <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+            </div>
         </main>
         <script src="assets/js/script.js"></script>
     </body>
